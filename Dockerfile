@@ -2,7 +2,7 @@ FROM alpine:3.4
 MAINTAINER Mark Wienk <mark@wienkit.nl>
 
 # Define rancher compose version
-ENV RANCHER_COMPOSE_VERSION v0.8.6
+ENV RANCHER_COMPOSE_VERSION v0.9.0
 
 # Download and install rancher compose
 RUN apk add --no-cache --virtual .persistent-deps \
